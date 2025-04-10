@@ -38,4 +38,6 @@ integrity.check_value_range(column="sales", min_value=0, max_value=50)
 
 # Menampilkan hasil validasi
 data_integrity = integrity.validate_data()
+print("Summary:")
 print(data_integrity)
+
